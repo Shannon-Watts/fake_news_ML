@@ -14,6 +14,6 @@ The reported effects of fake news includes: distrust in the media, the democrati
 
 Therefore, we aim to build a supervised machine learning model using Natural Language Programming to predict whether news is real or fake. 
 
-**Dataset: **
+# Dataset:
 
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download 
