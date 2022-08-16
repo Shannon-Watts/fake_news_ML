@@ -8,5 +8,4 @@ Approximately 45% of adults in the UK believe they see or read fake news everyda
 
 Definition of fake news: 
 
-    ‘false stories that appear to be news, spread on the internet or using other media, usually created to        influence political views or as a joke’ 
-									                                                                  Cambridge Dictionary
+    ‘false stories that appear to be news, spread on the internet or using other media, usually created to influence political views or as a joke' - Cambridge Dictionary
