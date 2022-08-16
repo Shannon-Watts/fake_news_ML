@@ -9,3 +9,11 @@ Approximately 45% of adults in the UK believe they see or read fake news everyda
 Definition of fake news: 
 
     ‘false stories that appear to be news, spread on the internet or using other media, usually created to influence political views or as a joke' - Cambridge Dictionary
+
+The reported effects of fake news includes: distrust in the media, the democratic process being undermined, increases in conspiracy theories and hate speech, and the general spread of false information to the detriment of public safety. 
+
+Therefore, we aim to build a supervised machine learning model using Natural Language Programming to predict whether news is real or fake. 
+
+**Dataset: **
+
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download 
