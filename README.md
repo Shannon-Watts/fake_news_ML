@@ -1,4 +1,4 @@
-# Real or Fake News? A Supervised Machine Learning with Natural Language Processing 🧠
+# Real or Fake News? A Supervised Machine Learning Model with Natural Language Processing 🧠
 
 Can anyone tell what is true and what is fake news anymore? From the weaponisation of Covid-19, to devastating meteors en route to destroy earth, and that notion that Pope Francis endorsed Trump in the US presidential race…
 
