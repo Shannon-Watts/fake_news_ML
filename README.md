@@ -17,6 +17,8 @@ The reported effects of fake news includes: distrust in the media, the democrati
 
 Therefore, we aim to build a supervised machine learning model using Natural Language Programming to predict whether news is real or fake. 
 
+Also see our Front-end repo here: Front-end: https://github.com/dianaagustinaf/is-it-fake.git 
+
 ## Dataset:
 
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download 
@@ -44,13 +46,80 @@ Data Visualisations
 
 Storytelling 
 ●	Scrollama (JS library)
-													  
-Implications for Research:
+
+
+## Machine Learning Process
+
+AI  ⇨  Machine Learning ⇨  Deep Learning 
+
+
+Steps:
+
+Extract Data
+⬇️
+Explore Data
+⬇️
+Clean Data
+⬇️
+Visualise Data
+⬇️
+Pre-process Data
+⬇️
+Compile (Deep Learning Models only)
+⬇️
+Train Model
+⬇️
+Evaluate Models
+
+## Pre-process Data
+Target Column: Title. Title words converted into lowercase, removed all stop words and special characters. 
+
+## Tokenization 
+We trialed 2 ways of tokenizing:
+1. Text data was tokenized with RegexpTokenizer() to split strings into substrings using regular expression and then a Stemming algorithm PorterStemmer() was used to stem the tokenized words (break down sentences into words).
+2. The text data was tokenized using a Tensforflow Tokenizer library and then sequenced.
+
+## Train-Test Split
+Data was split into Train and Test data to evaluate the performance of our Machine Learning Algorithm.
+
+## Models: 6 Binary Classification models
+We chose 6 machine learning algorithms best suited for Binary Classification problems to find the best model for predicting Fake New. This required an additonal preprocessing step: vectorisation - we used CountVectoriser.
+
+Result: SVC() has the best score of all the models we tested.
+
+classifier	accuracy	recall		precision	f1_score
+SVC		0.953626	0.930538	0.975108	0.952302
+PassiveAggress	0.943599	0.936974	0.944748	0.940845
+MultinomialNB	0.940466	0.945790	0.927777	0.936697
+RandomForestCla	0.940107	0.924670	0.951348	0.937819
+AdaBoostClass	0.846195	0.772541	0.958137	0.855387
+KNeighborsClass	0.705372	0.821817	0.484443	0.609562
+
+
+## Neural Network Models: NLP (sequential Model) & BERT 
+To go even deeper into 
+
+For the Supervised Learning Model we used a Keras Sequential deep learning model. We created a neural network model and the resulting accuracy was higher than the previous models. This model works best as a binary classifier and additional layers were added to account for the text classification: the Embedding layer converts sequences into arrays of word vectors and the Dense layer classifyies arrays of word vectors.
+
+![image](https://user-images.githubusercontent.com/100214297/186530881-c24c251a-c62d-427c-b5c0-037c3d781ed9.png)
+
+The below plot highlights the accuracy of the model:
+
+![image](https://user-images.githubusercontent.com/100214297/186531167-ac424b6b-dc3f-46c6-ba42-cb902bb9c6ff.png)
+
+Although, we suspected that the model may have overfitted on the training data due to the low loss rate and high accuracy rate in addition to the slight increase in the validation loss.
+
+Lastly, we trained a BERT model. BERT is a new method of pre-training language representations from Google which outperforms previous methods on a variety of Natural Language Processing (NLP) tasks. 
+
+BERT stands for “Bidirectional Encoder Representations from Transformers”. It uses a transformer model, applying the bidirectional training of Transformer using an encoder-decoder architecture. BERT only uses the encoder part of this architecture because its goal is to generate a language model.
+
+Apart from splitting the Test and Training data we skipped all the Pre-processing steps in our other Models because we used Tensorflow-hub’s BERT preprocesser and encoder.
+
+# Analysis
+
+
+# Implications for Research:
 If fake news could be distinguished from real news then the spread of misinformation would reduce. It would also have positive ramifications for democratic processes, the spread of hate speech, and public safety. 
 
 
 
-
-
-
-Also see our Front-end repo here: Front-end: https://github.com/dianaagustinaf/is-it-fake.git 
