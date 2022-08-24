@@ -1,6 +1,7 @@
 # Real or Fake News? A Supervised Machine Learning Model with Natural Language Processing 🧠
 
 ![image](https://user-images.githubusercontent.com/100214297/186528994-8007a67a-b285-466c-91f5-8c872666d5df.png)
+
 (The Week, accessed 09.08.22)
 
 Can anyone tell what is true and what is fake news anymore? From the weaponisation of Covid-19, to devastating meteors en route to destroy earth, and that notion that Pope Francis endorsed Trump in the US presidential race…
@@ -87,14 +88,7 @@ We chose 6 machine learning algorithms best suited for Binary Classification pro
 
 Result: SVC() has the best score of all the models we tested.
 
-classifier	accuracy	recall		precision	f1_score
-SVC		0.953626	0.930538	0.975108	0.952302
-PassiveAggress	0.943599	0.936974	0.944748	0.940845
-MultinomialNB	0.940466	0.945790	0.927777	0.936697
-RandomForestCla	0.940107	0.924670	0.951348	0.937819
-AdaBoostClass	0.846195	0.772541	0.958137	0.855387
-KNeighborsClass	0.705372	0.821817	0.484443	0.609562
-
+![image](https://user-images.githubusercontent.com/100214297/186531513-631f22e4-cbb4-482f-935e-04dfa4271c05.png)
 
 ## Neural Network Models: NLP (sequential Model) & BERT 
 To go even deeper into 
