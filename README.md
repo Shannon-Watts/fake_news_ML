@@ -1,4 +1,4 @@
-# Real or Fake News? A Machine Learning Model to Detect Fake News 🧠
+# Real or Fake News? A Machine & Deep Learning Models to Detect Fake News 🧠
 
 ![image](https://user-images.githubusercontent.com/100214297/186528994-8007a67a-b285-466c-91f5-8c872666d5df.png)
 
@@ -101,6 +101,10 @@ We chose 6 machine learning algorithms best suited for Binary Classification pro
 Result: SVC() has the best score of all the models we tested.
 
 ![image](https://user-images.githubusercontent.com/100214297/186531513-631f22e4-cbb4-482f-935e-04dfa4271c05.png)
+
+Interestingly, the Naive Bayes MB Classifier did not work as well as expected. We tried this machine model first as this model is typically used for text classification.
+
+Following the evaluations of the machine learning models we decided to trial out two deep learning models.
 
 ## NLP Sequential Model
 
