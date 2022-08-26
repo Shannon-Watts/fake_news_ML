@@ -18,13 +18,13 @@ The reported effects of fake news includes: distrust in the media, the democrati
 
 Therefore, we aimed to build a machine learning model to predict whether news is real or fake. We hosted our findings and presentation on aan interactive site:
 
-Front-end repo here: https://github.com/dianaagustinaf/is-it-fake.git 
+Front-end repo [here](https://github.com/dianaagustinaf/is-it-fake.git)
 
 ![image](https://user-images.githubusercontent.com/100214297/186919181-64c6c7e1-e3c5-4d76-ad2a-c03ecb68b863.png)
 
 ## Dataset:
 
-https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download 
+Click [here](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download) for original Kaggle data
 
 
 ### Back-End Tools:
@@ -40,7 +40,7 @@ Machine Learning: Supervised machine learning with Natural Language Programming 
 
 Web Design Structure: HTML, CSS (inc. Bootstrap) 
 
-Data Visualisations: D3, Plotly Express, Matplotlib 
+Data Visualisations: Plotly Express, Matplotlib, Word Cloud
 
 Storytelling: Scrollama (JS library)
 
@@ -50,11 +50,11 @@ AI  ⇨  Machine Learning ⇨  Deep Learning
 
 ![image](https://user-images.githubusercontent.com/100214297/186986548-5ac79fbe-08c5-4e70-939a-71af1298da81.png)
 
-## Initial Data exploration and Visualisation
+## Initial Data Analysis
 
 ![image](https://user-images.githubusercontent.com/100214297/186917543-76f60990-8c97-47ef-99fd-5f0bc20f1c7f.png) ![image](https://user-images.githubusercontent.com/100214297/186917583-7424d04f-faa0-4c65-8d8e-36fc697b453b.png)
 
-## Pre-processing the  Data
+## Pre-processing the Data
 Target Column: Title. Title words converted into lowercase, removed all stop words and special characters. 
 
 ## Tokenization 
@@ -135,6 +135,6 @@ Similar actions by past leaders has lead to dire consequences on citizens of nat
 If fake news could be distinguished from real news then the spread of misinformation would reduce. It would also have positive ramifications for democratic processes, the spread of hate speech, and public safety. 
 
 # Presentation of Project 
-This project and the analysis has been hosted on githubpages:
+This project and the analysis has been hosted on [githubpages](https://dianaagustinaf.github.io/is-it-fake/):
 
 ![image](https://user-images.githubusercontent.com/100214297/186919485-f6bce305-0176-4991-bb1b-3f972db40449.png)
