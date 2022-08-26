@@ -20,6 +20,8 @@ Therefore, we aimed to build a machine learning model to predict whether news is
 
 Front-end repo here: https://github.com/dianaagustinaf/is-it-fake.git 
 
+![image](https://user-images.githubusercontent.com/100214297/186919181-64c6c7e1-e3c5-4d76-ad2a-c03ecb68b863.png)
+
 ## Dataset:
 
 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download 
@@ -81,13 +83,6 @@ Test Models
 ## Initial Data exploration and Visualisation
 
 ![image](https://user-images.githubusercontent.com/100214297/186917543-76f60990-8c97-47ef-99fd-5f0bc20f1c7f.png) ![image](https://user-images.githubusercontent.com/100214297/186917583-7424d04f-faa0-4c65-8d8e-36fc697b453b.png)
-
-
-![image](https://user-images.githubusercontent.com/100214297/186917884-644fc32a-eecc-429e-a466-27ad3e39203a.png) ![image](https://user-images.githubusercontent.com/100214297/186917847-10538858-9e58-4817-9a4f-41b00310274e.png)
-
-
-![image](https://user-images.githubusercontent.com/100214297/186917970-617dd1a8-9d10-4225-803e-2059b584253c.png) ![image](https://user-images.githubusercontent.com/100214297/186917931-5f48fc81-536a-4434-83dd-f89d7695392d.png)
-
 
 ## Pre-processing the  Data
 Target Column: Title. Title words converted into lowercase, removed all stop words and special characters. 
@@ -151,3 +146,10 @@ Similar actions by past leaders has lead to dire consequences on citizens of nat
 
 # Implications for Research:
 If fake news could be distinguished from real news then the spread of misinformation would reduce. It would also have positive ramifications for democratic processes, the spread of hate speech, and public safety. 
+
+# Presentation of Project 
+This project and the analysis has been hosted on githubpages:
+
+![image](https://user-images.githubusercontent.com/100214297/186919485-f6bce305-0176-4991-bb1b-3f972db40449.png)
+
+
