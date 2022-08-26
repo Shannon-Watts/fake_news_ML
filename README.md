@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resou
 
 Importing Data: Spark
 
-Data Preprocessing: Python, 
+Data Preprocessing: Python 
 
 Machine Learning: Supervised machine learning with Natural Language Programming (Natural Language Understanding) and BERT (Bidirectional Encoder Representations from Transformers). 
 
@@ -138,5 +138,3 @@ If fake news could be distinguished from real news then the spread of misinforma
 This project and the analysis has been hosted on githubpages:
 
 ![image](https://user-images.githubusercontent.com/100214297/186919485-f6bce305-0176-4991-bb1b-3f972db40449.png)
-
-
