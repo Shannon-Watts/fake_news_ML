@@ -27,30 +27,15 @@ https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resou
 
 ### Back-End Tools:
 
-Importing Data
-●	Spark 
-
-Data Preprocessing 
-●	Python
-●	Pandas
-
-Machine Learning 
-●	Supervised machine learning with Natural Language Programming (Natural Language Understanding) and BERT (Bidirectional Encoder Representations from Transformers). 
+Importing Data: Spark 
+Data Preprocessing: Python, Pandas
+Machine Learning: Supervised machine learning with Natural Language Programming (Natural Language Understanding) and BERT (Bidirectional Encoder Representations from Transformers). 
 
 ### Front-End & Data Visualisation:
 
-Web Design Structure
-●	HTML
-●	CSS (inc. Bootstrap) 
-
-Data Visualisations
-●	D3
-●	Plotly Express
-●	Matplotlib 
-
-Storytelling 
-●	Scrollama (JS library)
-
+Web Design Structure: HTML, CSS (inc. Bootstrap) 
+Data Visualisations: D3, Plotly Express, Matplotlib 
+Storytelling: Scrollama (JS library)
 
 ## Machine Learning Process
 
@@ -60,20 +45,38 @@ AI  ⇨  Machine Learning ⇨  Deep Learning
 Steps:
 
 Extract Data
+
 ⬇️
+
 Explore Data
+
 ⬇️
+
 Clean Data
+
 ⬇️
+
 Visualise Data
+
 ⬇️
+
 Pre-process Data
+
 ⬇️
+
 Compile (Deep Learning Models only)
+
 ⬇️
+
 Train Model
+
 ⬇️
+
 Evaluate Models
+
+⬇️
+
+Test Models
 
 ## Initial Data exploration and Visualisation
 
