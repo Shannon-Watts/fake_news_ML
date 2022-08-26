@@ -104,7 +104,7 @@ Result: SVM has the best score of all the models we tested. Support Vector Machi
 
 Interestingly, the Naive Bayes MB Classifier did not work as well as expected. We tried this machine model first as this model is typically used for text classification.
 
-Following the evaluations of the machine learning models we decided to trial out two deep learning models.
+Following the evaluations of the machine learning models we decided to trial out two deep learning models. We thought that the deep learning models might have a higher prediction rate than the machine learning models as deep learning is a sub group of artifical intelligence. 
 
 ## NLP Sequential Model
 
