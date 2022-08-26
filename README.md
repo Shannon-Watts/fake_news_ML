@@ -40,7 +40,7 @@ Machine Learning: Supervised machine learning with Natural Language Programming 
 
 Web Design Structure: HTML, CSS (inc. Bootstrap) 
 
-Data Visualisations: Plotly Express, Matplotlib, Word Cloud
+Data Visualisations: Plotly Express, Matplotlib, Word Cloud, Seaborn
 
 Storytelling: Scrollama (JS library)
 
