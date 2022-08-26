@@ -1,4 +1,4 @@
-# Real or Fake News? A Machine Learning Model to Detect Fake News 🧠
+# Real or Fake News? Machine & Deep Learning Models to Detect Fake News 🧠
 
 ![image](https://user-images.githubusercontent.com/100214297/186528994-8007a67a-b285-466c-91f5-8c872666d5df.png)
 
@@ -98,9 +98,13 @@ Data was split into Train and Test data to evaluate the performance of our Machi
 ## Models: 6 Binary Classification models
 We chose 6 machine learning algorithms best suited for Binary Classification problems to find the best model for predicting Fake New. This required an additonal preprocessing step: vectorisation - we used CountVectoriser.
 
-Result: SVC() has the best score of all the models we tested.
+Result: SVM has the best score of all the models we tested. Support Vector Machine are very effective as a machine learning model with classification and regression problems. It also has low error rates - typically lower than Nueral Network models. 
 
 ![image](https://user-images.githubusercontent.com/100214297/186531513-631f22e4-cbb4-482f-935e-04dfa4271c05.png)
+
+Interestingly, the Naive Bayes MB Classifier did not work as well as expected. We tried this machine model first as this model is typically used for text classification.
+
+Following the evaluations of the machine learning models we decided to trial out two deep learning models. We thought that the deep learning models might have a higher prediction rate than the machine learning models as deep learning is a sub group of artifical intelligence. 
 
 ## NLP Sequential Model
 
@@ -112,7 +116,18 @@ The below plot highlights the accuracy of the model:
 
 ![image](https://user-images.githubusercontent.com/100214297/186531167-ac424b6b-dc3f-46c6-ba42-cb902bb9c6ff.png)
 
+Loss: 0.19784285128116608, Accuracy: 0.9468330144882202
+
 Although, we suspected that the model may have overfitted on the training data due to the low loss rate and high accuracy rate in addition to the slight increase in the validation loss.
+
+In addition to this, this model had a slighlty lower accuracy rate than the Support Vector Machine model. 
+
+To investigate this further we would:
+1. train a SVM model on the same proprocessed data that the NN model was trained on.
+2. run the SVM model fully and compare the loss in addition to the accuracy to the NN model. 
+3. compile and train a convultional network model to see how this compares to SVM and NN models. 
+
+We predict that a Convultional Network Model would have a higher accuracy and lower error rate. This is because convultional neural networks automatically detect import features in addition to other advantages over other neural network models. 
 
 ## BERT
 
@@ -126,6 +141,8 @@ Apart from splitting the Test and Training data we skipped all the Pre-processin
 We used confusion matricies to evaluate the models, and we this is what we found:
 
 [ADD IN CM (SHOLA)]
+
+Also we thought that the data was potentially overfiiting to the training data. Further steps to combat this would be ..... [RESEARCH]
 
 # Analysis
 We tested our NLP model on completely new unseen data. We chose fake news text and true news text and ran it through our model. 
