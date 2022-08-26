@@ -127,6 +127,8 @@ We used confusion matricies to evaluate the models, and we this is what we found
 
 [ADD IN CM (SHOLA)]
 
+Also we thought that the data was potentially overfiiting to the training data. Further steps to combat this would be ..... [RESEARCH]
+
 # Analysis
 We tested our NLP model on completely new unseen data. We chose fake news text and true news text and ran it through our model. 
 
