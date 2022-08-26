@@ -98,7 +98,7 @@ Data was split into Train and Test data to evaluate the performance of our Machi
 ## Models: 6 Binary Classification models
 We chose 6 machine learning algorithms best suited for Binary Classification problems to find the best model for predicting Fake New. This required an additonal preprocessing step: vectorisation - we used CountVectoriser.
 
-Result: SVC() has the best score of all the models we tested.
+Result: SVM has the best score of all the models we tested. Support Vector Machine are very effective as a machine learning model with classification and regression problems. It also has low error rates - typically lower than Nueral Network models. 
 
 ![image](https://user-images.githubusercontent.com/100214297/186531513-631f22e4-cbb4-482f-935e-04dfa4271c05.png)
 
@@ -117,6 +117,8 @@ The below plot highlights the accuracy of the model:
 ![image](https://user-images.githubusercontent.com/100214297/186531167-ac424b6b-dc3f-46c6-ba42-cb902bb9c6ff.png)
 
 Although, we suspected that the model may have overfitted on the training data due to the low loss rate and high accuracy rate in addition to the slight increase in the validation loss.
+
+In addition to this, this model 
 
 ## BERT
 
