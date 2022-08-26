@@ -120,11 +120,11 @@ Loss: 0.19784285128116608, Accuracy: 0.9468330144882202
 
 Although, we suspected that the model may have overfitted on the training data due to the low loss rate and high accuracy rate in addition to the slight increase in the validation loss.
 
-In addition to this, this model had a slighlty lower accuracy rate than the 
+In addition to this, this model had a slighlty lower accuracy rate than the Support Vector Machine model. 
 
 To investigate this further we would:
 1. train a SVM model on the same proprocessed data that the NN model was trained on.
-2. run the SVM model fully and compare the loss in addition to the accuracy. 
+2. run the SVM model fully and compare the loss in addition to the accuracy to the NN model. 
 3. compile and train a convultional network model to see how this compares to SVM and NN models. 
 
 We predict that a Convultional Network Model would have a higher accuracy and lower error rate. This is because convultional neural networks automatically detect import features in addition to other advantages over other neural network models. 
