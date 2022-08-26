@@ -10,7 +10,7 @@ Most fake news, however, is difficult to decipher which has led to many people a
 
 Approximately 45% of adults in the UK believe they see or read fake news everyday (JournoLink, 2022).
  
-Definition of fake news: 
+### Definition of fake news: 
 
     ‘false stories that appear to be news, spread on the internet or using other media, usually created to influence political views or as a joke' - Cambridge Dictionary
 
@@ -100,10 +100,7 @@ Result: SVC() has the best score of all the models we tested.
 
 ![image](https://user-images.githubusercontent.com/100214297/186531513-631f22e4-cbb4-482f-935e-04dfa4271c05.png)
 
-## Neural Network Models: NLP (sequential Model) & BERT 
-To go even deeper into 
-
-## NLP Sequntial Model
+## NLP Sequential Model
 
 For the Supervised Learning Model we used a Keras Sequential deep learning model. We created a neural network model and the resulting accuracy was higher than the previous models. This model works best as a binary classifier and additional layers were added to account for the text classification: the Embedding layer converts sequences into arrays of word vectors and the Dense layer classifyies arrays of word vectors.
 
