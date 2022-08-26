@@ -76,7 +76,7 @@ Interestingly, the Naive Bayes MB Classifier did not work as well as expected. W
 
 Following the evaluations of the machine learning models we decided to trial out two deep learning models. We thought that the deep learning models might have a higher prediction rate than the machine learning models as deep learning is a sub group of artifical intelligence. 
 
-## NLP Sequential Model
+## NLP Model
 
 For the Supervised Learning Model we used a Keras Sequential deep learning model. We created a neural network model and the resulting accuracy was higher than the previous models. This model works best as a binary classifier and additional layers were added to account for the text classification: the Embedding layer converts sequences into arrays of word vectors and the Dense layer classifyies arrays of word vectors.
 
