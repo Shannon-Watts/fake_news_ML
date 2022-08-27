@@ -105,7 +105,15 @@ Lastly, we trained a BERT model. BERT is a new method of pre-training language r
 
 BERT stands for “Bidirectional Encoder Representations from Transformers”. It uses a transformer model, applying the bidirectional training of Transformer using an encoder-decoder architecture. BERT only uses the encoder part of this architecture because its goal is to generate a language model.
 
+![image](https://user-images.githubusercontent.com/100214297/187019685-f491d1cc-69f4-4fa8-b3b2-8a3b24dcddae.png)
+
 Apart from splitting the Test and Training data we skipped all the Pre-processing steps in our other Models because we used Tensorflow-hub’s BERT preprocesser and encoder.
+
+![image](https://user-images.githubusercontent.com/100214297/187019694-da0f0ff7-eaf2-46b0-bc31-9d529e5d3dd8.png)
+
+The model reached an accuracy level of almost 0.90 and a low loss score of 0.23 on the testing data. The validation accuracy starts to dip slightly after 3 epochs but the BERT Model performed relatively well on Predicting Fake News after just 5 epochs. 
+
+The model reached an accuracy level of almost 0.90 and a low loss score of 0.23 on the testing data. The validation accuracy starts to dip slightly after 3 epochs but the BERT Model performed relatively well on Predicting Fake News after just 5 epochs. 
 
 # Analysis
 We tested our NLP model on completely new unseen data. We chose fake news text and true news text and ran it through our model. 
