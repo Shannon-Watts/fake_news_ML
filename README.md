@@ -121,6 +121,9 @@ The model reached an accuracy level of almost 0.90 and a low loss score of 0.23 
 
 The model reached an accuracy level of almost 0.90 and a low loss score of 0.23 on the testing data. The validation accuracy starts to dip slightly after 3 epochs but the BERT Model performed relatively well on Predicting Fake News after just 5 epochs. 
 
+# Confusion Matrix
+![cm](https://github.com/dianaagustinaf/is-it-fake/blob/main/assets/dataviz/confusionmatrix.png)
+
 # Analysis
 We tested our NLP model on completely new unseen data. We chose fake news text and true news text and ran it through our model. 
 
