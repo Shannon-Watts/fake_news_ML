@@ -52,7 +52,7 @@ AI  ⇨  Machine Learning ⇨  Deep Learning
 
 ## Initial Data Analysis
 
-![image](https://user-images.githubusercontent.com/100214297/186917543-76f60990-8c97-47ef-99fd-5f0bc20f1c7f.png) ![image](https://user-images.githubusercontent.com/100214297/186917583-7424d04f-faa0-4c65-8d8e-36fc697b453b.png)
+![image](https://github.com/Shannon-Watts/fake_news_ML/blob/main/data-visualisations/viz/fig2.png) ![image](https://github.com/Shannon-Watts/fake_news_ML/blob/main/data-visualisations/viz/fig1.png)
 
 ## Pre-processing the Data
 Target Column: Title. Title words converted into lowercase, removed all stop words and special characters. 
