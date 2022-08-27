@@ -107,13 +107,6 @@ BERT stands for “Bidirectional Encoder Representations from Transformers”. I
 
 Apart from splitting the Test and Training data we skipped all the Pre-processing steps in our other Models because we used Tensorflow-hub’s BERT preprocesser and encoder.
 
-## Comparison of Models
-We used confusion matricies to evaluate the models, and we this is what we found:
-
-[ADD IN CM (SHOLA)]
-
-Also we thought that the data was potentially overfiiting to the training data. Further steps to combat this would be ..... [RESEARCH]
-
 # Analysis
 We tested our NLP model on completely new unseen data. We chose fake news text and true news text and ran it through our model. 
 
