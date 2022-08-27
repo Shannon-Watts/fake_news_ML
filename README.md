@@ -122,6 +122,9 @@ The model reached an accuracy level of almost 0.90 and a low loss score of 0.23 
 The model reached an accuracy level of almost 0.90 and a low loss score of 0.23 on the testing data. The validation accuracy starts to dip slightly after 3 epochs but the BERT Model performed relatively well on Predicting Fake News after just 5 epochs. 
 
 # Confusion Matrix
+
+From the models its clear KNN model perfomed worst in comparsion to SVM model that performed best. The use of the confusion matrix allows us to visually compare and analysis the results of all models. 
+
 ![cm](https://github.com/dianaagustinaf/is-it-fake/blob/main/assets/dataviz/confusionmatrix.png)
 
 # Analysis
